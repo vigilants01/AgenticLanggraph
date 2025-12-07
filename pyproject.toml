@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "langgraph>=1.0.4",
+    "langchain>=1.1.2",
+    "langsmith>=0.4.56",
+    "ipython>=9.8.0",
+]
